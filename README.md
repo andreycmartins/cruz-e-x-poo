@@ -17,10 +17,6 @@ Para executar a solução, é necessário ter o PHP e um servidor web instalados
 ## Refatoração para orientação a objetos
 A cruz é representada como uma classe Cruz, que possui as propriedades privadas $tamanho e $posicaoVertical. O método construtor __construct() é responsável por inicializar essas propriedades. O método new Cruz() é responsável por atribuir o objeto Cruz à variável desenho. O método desenhar() é responsável executar a função desenhar do objeto, resultando na impressão da cruz na tela, utilizando as propriedades $tamanho e $posicaoVertical.
 
-## Para utilizar a classe Cruz, basta criar uma nova instância passando a tamanho e posicaoVertical desejadas, e chamar o método imprimir().
-
-## ---------------------------------------------------
-
 ## X em PHP
 Esse é um código em PHP que imprime um X na tela. Ele pode ser executado em um servidor web que suporte PHP, como o Apache.
 
@@ -34,5 +30,3 @@ Para executar a solução, é necessário ter o PHP e um servidor web instalados
 
 ## Refatoração para orientação a objetos
 A cruz é representada como uma classe X, que possui a propriedade privada $tamanho. O método construtor __construct() é responsável por inicializar essas propriedades, enviando passando para o objeto os valores declarados na inicialização do objeto. O método new X() é responsável por atribuir o objeto X à variável desenho. O método desenhar() é responsável executar a função desenhar do objeto, resultando na impressão do X na tela, utilizando a propriedade $tamanho.
-
-## Para utilizar a classe X, basta criar uma nova instância passando a tamanho e posicaoVertical desejadas, e chamar o método imprimir().
